@@ -38,7 +38,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-size: 30px; color: #000; }
+.templateux-navbar .site-logo a { font-size: 26px; color:#FFE937; }
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -48,7 +48,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; }
 
-.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
+.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #FFE937; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
 
 .templateux-navbar .templateux-menu ul li a:hover:before { width: 100%; }
 
@@ -193,9 +193,9 @@ textarea.form-control { height: inherit; }
 
 .go-down { position: relative; width: 40px; height: 40px; display: block; margin-left: -15px; position: absolute; margin-top: 70px; }
 
-.go-down:before { width: 2px; height: 40px; right: 27px; content: ""; display: block; position: absolute; background: #dc3545; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); pointer-events: none; top: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
+.go-down:before { width: 2px; height: 40px; right: 27px; content: ""; display: block; position: absolute; background: #FFE937; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); pointer-events: none; top: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
-.go-down:after { content: ""; position: absolute; left: 50%; bottom: -12px; border: solid transparent; content: " "; height: 0; width: 0; margin-left: -1px; position: absolute; border-top-color: #dc3545; border-width: 7px; margin-left: -7px; }
+.go-down:after { content: ""; position: absolute; left: 50%; bottom: -12px; border: solid transparent; content: " "; height: 0; width: 0; margin-left: -1px; position: absolute; border-top-color:  #FFE937; border-width: 7px; margin-left: -7px; }
 
 .go-down:hover { height: 70px; }
 
